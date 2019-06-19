@@ -605,7 +605,8 @@ def ProcessorFeatures {
                                                   FeatureFMA,
                                                   FeatureINVPCID,
                                                   FeatureLZCNT,
-                                                  FeatureMOVBE];
+                                                  FeatureMOVBE,
+                                                  FeatureRTM];
   list<SubtargetFeature> HSWTuning = [FeatureMacroFusion,
                                       FeatureSlow3OpsLEA,
                                       FeatureSlowDivide64,
